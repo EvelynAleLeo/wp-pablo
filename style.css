@@ -83,6 +83,10 @@ li {
 	padding: 0 8px;
 }
 
+a {
+	text-decoration: none;
+}
+
 ul {
 	list-style: none;
 }

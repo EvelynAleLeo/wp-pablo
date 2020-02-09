@@ -32,7 +32,7 @@
 			<div class="navbar">
 				<nav>
 					<ul>
-						<li>Home</li>
+						<li><a href="<?php echo home_url(); ?>">Home</a></li>
 						<li>Biography</li>
 						<li>Artistic Work</li>
 						<li>Conservation/Restauration</li>
