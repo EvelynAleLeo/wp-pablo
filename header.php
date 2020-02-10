@@ -27,7 +27,7 @@
 		<main id="site-content" role="main">
 		<header>
 			<div class="logo">
-				<img src="https://www.infobae.com/new-resizer/zrfvo5w-Lw_AmxuhDiJ7IIUH7KE=/750x0/filters:quality(100)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/3KJ4AFYLUZAG7DYO7IJULMZ3P4.jpg" alt="gato cuco" width="220" height="80">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logopablocortes.png" alt="logo pablo cortes" width="220" height="80">
 			</div>
 			<div class="navbar">
 				<nav>
