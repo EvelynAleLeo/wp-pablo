@@ -33,13 +33,13 @@
 			<div class="navbar">
 				<nav>
 					<ul>
-						<li><a href="<?php echo home_url(); ?>">Home</a></li>
-						<li>Biography</li>
-						<li>Artistic Work</li>
-						<li>Conservation/Restauration</li>
-						<li>Career</li>
-						<li>Press</li>
-						<li>Contact</li>
+						<li><a href="<?php echo home_url(); ?>">HOME</a></li>
+						<li>BIO</li>
+						<li>ARTISTIC WORK</li>
+						<li>CONSERVATION/RESTORATION</li>
+						<li>CAREER</li>
+						<li>PRESS</li>
+						<li>CONTACT</li>
 					</ul>
 
 
