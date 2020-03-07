@@ -1,4 +1,5 @@
     
+    		</div>
     </main><!-- #site-content -->
     <footer>
       <div class="media">
@@ -8,6 +9,7 @@
         <!-- <i class="fab fa-linkedin fa-2x"></i> -->
       </div>
     </footer>
+    <?php wp_footer(); ?>
     <!-- TODO: probably better to download SVGs -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
   </body>

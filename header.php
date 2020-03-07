@@ -22,28 +22,32 @@
 		<link rel="profile" href="https://gmpg.org/xfn/11">
 		<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
+		<?php wp_head(); ?>
 	</head>
 
 	<body <?php body_class(); ?>>
 		<main id="site-content" role="main">
-		<header>
-			<div class="logo">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logopablocortes.png" alt="logo pablo cortes" width="220" height="80">
-			</div>
-			<div class="navbar">
-				<nav>
-					<ul>
-						<li><a href="<?php echo home_url(); ?>">HOME</a></li>
-						<li>BIO</li>
-						<li>ARTISTIC WORK</li>
-						<li>CONSERVATION/RESTORATION</li>
-						<li>CAREER</li>
-						<li>PRESS</li>
-						<li>CONTACT</li>
-					</ul>
+			<header>
+				<div class="logo">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logopablocortes.png" alt="logo pablo cortes" width="220" height="80">
+				</div>
+				<div class="navbar">
+					<nav>
+						<ul>
+							<li><a href="<?php echo home_url(); ?>">HOME</a></li>
+							<li>BIO</li>
+							<li>ARTISTIC WORK</li>
+							<li>CONSERVATION/RESTORATION</li>
+							<li>CAREER</li>
+							<li>PRESS</li>
+							<li>CONTACT</li>
+						</ul>
 
 
-				</nav>
-			</div>
-			
-		</header>
+					</nav>
+				</div>
+				
+			</header>
+			<div class="main-content">
+
+
