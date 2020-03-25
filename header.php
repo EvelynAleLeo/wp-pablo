@@ -35,7 +35,7 @@
 					<nav>
 						<ul>
 							<li><a href="<?php echo home_url(); ?>">HOME</a></li>
-							<li>BIO</li>
+							<li><a href="/index.php?page_id=7">BIO</a></li>
 							<li>ARTISTIC WORK</li>
 							<li>CONSERVATION/RESTORATION</li>
 							<li>CAREER</li>
