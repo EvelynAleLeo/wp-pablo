@@ -4,4 +4,5 @@
  Sorry, not found!
 
 <?php
-get_footer();
+  get_footer();
+?>
