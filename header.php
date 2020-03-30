@@ -29,7 +29,7 @@
 		<main id="site-content" role="main">
 			<header>
 				<div class="logo">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logopablocortes.png" alt="logo pablo cortes" width="220" height="80">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logopablocortes.png" alt="logo pablo cortes" width="260" height="95">
 				</div>
 				<div class="navbar">
 					<nav>
