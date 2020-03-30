@@ -17,7 +17,7 @@
 ?>
 
 
-<?php echo do_shortcode('[metaslider id="32"]'); ?>
+<?php echo do_shortcode('[metaslider id="50"]'); ?>
 
 
 
