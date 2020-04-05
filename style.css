@@ -68,6 +68,7 @@ blockquote::after {
 main {
   max-width: 1524px;
   margin: 0 auto;
+  padding: 0 0 100px;
 }
 
 .logo img {
@@ -121,9 +122,12 @@ header {
 footer {
   display: flex;
   justify-content: flex-end;
-  padding: 24px;
+  padding: 24px 0;
   background-color: #cbccd2;
-  min-height: 100px;
+  height: 52px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 .svg-inline--fa {
