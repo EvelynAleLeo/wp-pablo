@@ -2,7 +2,7 @@
   get_header();
 ?>
 
-<div class="page">
+<div class="biography">
 <?php 
     the_post();
     the_content();
