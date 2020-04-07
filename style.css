@@ -75,7 +75,7 @@ main {
   max-width: 260px;
   max-height: 95px;
 }
-
+/* HEADER STYLES */
 nav {
 	float: right;
 	font-weight: 700;
@@ -138,6 +138,20 @@ footer {
 .main-content{
   width: 100%;
   display: flex;
+}
+
+/* PAGE STYLES */
+
+.page {
+  margin-top: 10px;
+}
+
+.page p{
+    margin-bottom: 19px;
+    width: 89%;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 26px;
 }
 
 /* TABLET STYLES */
