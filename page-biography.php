@@ -3,10 +3,10 @@
 ?>
 
 <div class="biography">
-<?php 
-    the_post();
-    the_content();
-?>
+  <?php 
+      the_post();
+      the_content();
+  ?>
 </div>
 
 <?php

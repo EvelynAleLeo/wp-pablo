@@ -102,15 +102,6 @@ ul {
   max-width: 740px;
 }
 
-/* a trick... */
-.wp-block-image img {
-  max-width: none !important;
-}
-
-.bio-paragraph {
-  align-self: center;
-}
-
 header {
   display: flex;
   height: 100px;
@@ -135,18 +126,32 @@ footer {
   padding: 4px;
 }
 
-.main-content{
+.main-content {
   width: 100%;
   display: flex;
 }
 
-/* PAGE STYLES */
 
+/* PAGE BIOGRAPHY */
+.wp-block-image img {
+  max-width: none !important; /* a trick... */
+}
+
+.bio-paragraph {
+  align-self: center;
+}
+
+.biography {
+  display: flex;
+}
+
+
+/* PAGE STYLES */
 .page {
   margin-top: 10px;
 }
 
-.page p{
+.page p {
     margin-bottom: 19px;
     width: 89%;
     margin-left: 5%;
