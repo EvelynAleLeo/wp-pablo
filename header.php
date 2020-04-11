@@ -39,8 +39,8 @@
 							<li><a href="<?php echo home_url().'/artistic-work'; ?>">ARTISTIC WORK</a></li>
 							<li><a href="<?php echo home_url().'/conservation-restoration'; ?>">CONSERVATION/RESTORATION</a></li>
 							<li><a href="<?php echo home_url().'/career'; ?>">CAREER</a><li>
-							<li><a href="<?php echo home_url().'/press'; ?>">PRESS</a>/<li>
-							<li><a href="<?php echo home_url().'/contact'; ?>">CONTACT</a>/<li>
+							<li><a href="<?php echo home_url().'/press'; ?>">PRESS</a><li>
+							<li><a href="<?php echo home_url().'/contact'; ?>">CONTACT</a><li>
 						</ul>
 
 
