@@ -80,7 +80,24 @@ nav {
 	float: right;
 	font-weight: 700;
 }
-
+nav li{
+  position: relative; 
+  /* esto tiene posicion relativa para servir como referencia a los hijos, */
+  /* que se recolocan en referencia a este padre */
+  /* si esto no tuviera esta posición relativa,  */
+  /* los hijos se colocarian en referencia al documento completo, */
+  /* que actuaria de primer elemento (padre) relativo por defecto */
+}
+nav li  ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  /* estos son los hijos a los que nos referimos arriba */
+}
+nav li.artistic-dropdown:hover ul{
+  display: block;
+}
+  
 li {
   float: left;
   padding: 0 8px;

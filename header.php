@@ -36,7 +36,13 @@
 						<ul>
 							<li><a href="<?php echo home_url(); ?>">HOME</a></li>
 							<li><a href="<?php echo home_url().'/biography'; ?>">BIO</a></li>
-							<li><a href="<?php echo home_url().'/artistic-work'; ?>">ARTISTIC WORK</a></li>
+							<li class="artistic-dropdown">
+								<a href="<?php echo home_url().'/artistic-work'; ?>">ARTISTIC WORK</a>
+								<ul>
+									<li>Primero</li>
+									<li>Segundo</li>
+								</ul>
+							</li>
 							<li><a href="<?php echo home_url().'/conservation-restoration'; ?>">CONSERVATION/RESTORATION</a></li>
 							<li><a href="<?php echo home_url().'/career'; ?>">CAREER</a><li>
 							<li><a href="<?php echo home_url().'/press'; ?>">PRESS</a><li>
